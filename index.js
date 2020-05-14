@@ -1,5 +1,0 @@
-/*
-
-RUNNING FILES
-
-*/
