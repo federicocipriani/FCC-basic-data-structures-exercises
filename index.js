@@ -1,9 +1,13 @@
-function largestOfFour(arr) {
-    let maxArray = [];
-    for (let subArr in arr) {
-        maxArray.push(Math.max(...arr[subArr]));
-    }
-    return maxArray;
+function mutation(arr) {
+  let check = arr[1];
+  for (let letter in check) {
+      console.log(check[letter]);
+      console.log(arr[0].includes(check[letter]));
+      console.log(not arr[0].includes(check[letter]));
+      if (~(arr[0].includes(check[letter]))) {
+          return false;
+      }
+    }   
 }
 
-largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+mutation(["hello", "hey"]);
