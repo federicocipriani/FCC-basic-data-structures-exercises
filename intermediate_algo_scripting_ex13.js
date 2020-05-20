@@ -1,3 +1,7 @@
+// Rewrite sumPrimes so it returns the sum of all prime numbers that are less than or equal to num.
+
+// WRONG, BUT NEEDS REVIEW
+
 function sumPrimes(num) {
     sum = 1;
     for (let i=2;i<=num;i++) {
